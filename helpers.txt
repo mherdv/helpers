@@ -1,0 +1,14 @@
+
+function* workerEditRequest(values, id) {
+  const url = axiosData.workerEdit.url.replace(':id', id);
+  const res = yield call(Axios.request, {
+    ...axiosData.workerEdit,
+    url,
+    data: createWorkerDataHandler(values),
+  });
+
+  return res;
+}
+
+
+git config --global alias.cb '!f() { git c -m"$(git name): ${1}"; }; f'
