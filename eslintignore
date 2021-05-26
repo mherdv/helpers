@@ -1,0 +1,10 @@
+node_modules
+public/js/*.js
+webpack.mix.js
+resources/js/bootstrap.js
+*.less
+*.css
+*.scss
+resources/src/fonts/**
+resources/src/assets/**
+resources/src/copy-lib/**
